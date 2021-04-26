@@ -39,22 +39,26 @@ h2 {
     }
   }
   
-  @media(max-width: 800px) {
+  @media(max-width: 900px) {
+    body{
+      background:  url('pic1.jpg') no-repeat right /cover;
+    }
     .container {
       padding: 0 1rem;
+      height: 40%;
     }
   
     h1 {
       font-size: 3rem;
-      color: black;
+      color: white;
       font-weight: bolder;
     }
     h2{
-        color: black;
+        color: white;
         font-weight: bold;
     }
     .txt-type > .txt {
-        border-right: 0.2rem solid black;
+        border-right: 0.2rem solid white;
     }
   }
   
