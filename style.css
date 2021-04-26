@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background:  url('pic.jpg') no-repeat right center ;
+    color: #b0c4de;
+    overflow:hidden;
+ 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+
+/* 
+@media only screen and (max-width: 1303px) {
+    body {
+       color: black;
+    }
+  } */
